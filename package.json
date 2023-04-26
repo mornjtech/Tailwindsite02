@@ -1,0 +1,24 @@
+{
+  "name": "Tailwindsite02",
+  "version": "1.0.0",
+  "description": "A simple tailwind website",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./build/css/style.css --watch",
+    "prettier": "npx prettier --write **/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mornjtech/Tailwindsite02.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mornjtech/Tailwindsite02/issues"
+  },
+  "homepage": "https://github.com/mornjtech/Tailwindsite02#readme",
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.2.7"
+  }
+}
